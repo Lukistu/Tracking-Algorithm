@@ -34,8 +34,8 @@ class SyntheticSubjectGenerator:
             'remove': [0],
             'add': [5],
             'translation': [0],  # translates the lesions along the center-lesion-vector [1,2,3] --> [2,3,4]
-            'rotation': [0],  # confusion of the highest order
-            'variance': [4],  # randomly subtracts value away from [x,y,z]
+            'rotation': [0],  
+            'variance': [4],  
         }
         self.permutations = itertools.product(*self.conf.values())
 
