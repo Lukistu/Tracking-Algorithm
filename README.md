@@ -7,19 +7,29 @@ This algorithm offers an alternative approach to tracking brain lesions across t
 
 ## Features
 
-- Tracks lesions using Nifti files (binary masks).
+- Tracks lesions using characteristic distances.
 - Supports both single and multiple lesions per scan.
 - Includes artificial data generation for performance testing.
+- Includes plotting function for visualization of performance tests
 
-## Installation
+## Dependencies
 
-Clone the repository and install the necessary dependencies.
+- **Python 3.x**: Ensure Python 3.x is installed.
+- **NumPy (1.26.3)**: For numerical computations and array handling.
+- **Pandas (2.2.1)**: For data manipulation and handling CSV files.
+- **Matplotlib (3.8.2)**: For plotting graphs and visualizing data.
+- **SciPy (1.12.0)**: For scientific and mathematical computations, including image manipulation.
+- **SimpleITK (2.3.1)**: For image processing and analysis, especially medical images.
+- **Loguru (0.7.2)**: For logging information during execution.
+- **tkinter**: For creating graphical user interfaces (standard library module).
+- **glob, collections, datetime, os, csv, itertools**: Standard Python libraries used for various tasks.
+
+You can install these dependencies using pip:
 
 ```bash
-git clone https://github.com/yourusername/Tracking-Algorithm.git
-cd Tracking-Algorithm
-pip install -r requirements.txt
+pip install numpy==1.26.3 pandas==2.2.1 matplotlib==3.8.2 scipy==1.12.0 SimpleITK==2.3.1 loguru==0.7.2
 ```
+
 
 ## Usage
 
@@ -122,4 +132,4 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-For any questions, feel free to reach out via [your email/contact link].
+For any questions, feel free to reach out
